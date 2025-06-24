@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Summer Dress - BlueVogue</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #00bfff;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    .product-detail {
+      max-width: 900px;
+      margin: 2rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .product-detail img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    .info {
+      flex: 1;
+    }
+
+    .info h1 {
+      margin-top: 0;
+      color: #00bfff;
+    }
+
+    .info p {
+      margin: 1rem 0;
+    }
+
+    .price {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #e91e63;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      margin-top: 3rem;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .product-detail {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BlueVogue</h1>
+    <p>Product Details - Summer Dress</p>
+  </header>
+
+  <section class="product-detail">
+    <img src="https://static.india.com/wp-content/uploads/2024/06/Floral-Dresses-For-Women.jpg?impolicy=Medium_Widthonly&w=700" alt="Summer Dress">
+
+    <div class="info">
+      <h1>Women's Floral Summer Dress</h1>
+      <p class="price">₹999</p>
+      <p>This elegant and lightweight summer dress is perfect for warm days. Made from breathable fabric with vibrant floral patterns, it's both comfortable and stylish. Ideal for vacations, brunch dates, and beach walks.</p>
+      
+      <p><strong>Available Sizes:</strong> S, M, L, XL</p>
+      <p><strong>Colors:</strong> Yellow, Pink, White</p>
+
+      <button class="btn">Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 BlueVogue. All rights reserved.
+  </footer>
+
+</body>
+</html>
